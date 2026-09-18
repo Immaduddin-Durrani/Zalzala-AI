@@ -15,7 +15,7 @@ import requests
 BASE = Path(__file__).parent
 G0DM0D3_DIR = BASE / "G0DM0D3"
 JUICESHOP_DIR = BASE / "juice-shop"
-AGENT_DIR = BASE / "Zalzala-AI" / "agent"
+AGENT_DIR = BASE / "agent"
 LOGS_DIR = BASE / "logs"
 LOGS_DIR.mkdir(exist_ok=True)
 
